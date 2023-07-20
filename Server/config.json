@@ -1,0 +1,14 @@
+{
+    "web": {
+      "client_id": "227077533553-hcepo7spkvcfmg7uqjcj3e744s82srh7.apps.googleusercontent.com",
+      "client_secret": "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",
+      "redirect_uris": ["http://localhost:3000/auth/google/callback"],
+      "auth_url" : "https://accounts.google.com/o/oauth2/auth",
+      "token_url" : "https://accounts.google.com/o/oauth2/token",
+      "access_type": "offline",
+      "scope": [
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/userinfo.profile"
+      ]
+    }
+  }
